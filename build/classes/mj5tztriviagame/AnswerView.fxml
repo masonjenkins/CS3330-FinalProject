@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mj5tztriviagame.AnswerViewController">
+   <children>
+      <Text fx:id="questionText" layoutX="14.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="570.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="selectedAnswerText" layoutX="14.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="570.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="correctAnswerText" layoutX="14.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Label layoutX="11.0" layoutY="14.0" text="Your question:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="113.0" text="You selected:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="235.0" text="Correct Answer:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="545.0" layoutY="15.0" mnemonicParsing="false" onAction="#quitButtonPressed" text="Quit" />
+      <Button layoutX="437.0" layoutY="15.0" mnemonicParsing="false" onAction="#newQuestionButtonPressed" text="New Question" />
+      <Button layoutX="324.0" layoutY="15.0" mnemonicParsing="false" onAction="#saveQuestionButtonPressed" text="Save Question" />
+   </children>
+</AnchorPane>

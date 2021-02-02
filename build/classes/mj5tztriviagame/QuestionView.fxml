@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mj5tztriviagame.QuestionViewController">
+   <children>
+      <Button fx:id="answerButtonOne" layoutX="26.0" layoutY="153.0" mnemonicParsing="false" onAction="#answerOnePressed" />
+      <Button fx:id="answerButtonTwo" layoutX="26.0" layoutY="200.0" mnemonicParsing="false" onAction="#answerTwoPressed" />
+      <Button fx:id="answerButtonThree" layoutX="26.0" layoutY="245.0" mnemonicParsing="false" onAction="#answerThreePressed" />
+      <Button fx:id="answerButtonFour" layoutX="26.0" layoutY="289.0" mnemonicParsing="false" onAction="#answerFourPressed" />
+      <Label layoutX="14.0" layoutY="14.0" text="Your question:">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="236.0" layoutY="21.0" text="Category:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Text fx:id="categoryText" layoutX="307.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <HBox layoutX="14.0" layoutY="48.0" prefHeight="100.0" prefWidth="574.0">
+         <children>
+            <Text fx:id="questionText" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="570.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
